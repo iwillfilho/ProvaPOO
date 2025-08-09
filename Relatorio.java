@@ -18,6 +18,7 @@ public class Relatorio {
 
         Veiculo[] vetor = new Veiculo[len];
 
+        //saída de dados
         for(int i=0;i<len;i++){
             System.out.println("Digite: 0 para adicionar um caminhão e 1 para onibus");
             type = sc.nextInt();
